@@ -9,6 +9,7 @@
 ## Finally the plot will be saved as "plot4.png".
 
 ## Read the data needed
+filename <- "household_power_consumption.txt"
 data <- read.table(filename,skip=66637,nrow=2880,
                    col.names=colnames(read.table(filename,nrow=1,
                                                  header=TRUE,
